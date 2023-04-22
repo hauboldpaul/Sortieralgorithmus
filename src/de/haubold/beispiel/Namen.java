@@ -1,13 +1,7 @@
 package de.haubold.beispiel;
 
 public class Namen{
-    //Nammenliste (zum Beispiel Klassen liste) mit Geburstjahr sortieren zwei Arrays machen an den gleichen Index Zahlen stehen
-    //in einem string und einem int array die zu sortiereden daten durch Bubble sort sollte sich die
-    //Reihenfolge niemals ändern durch array.sort schon durch den instabilen quick.sort algorithmus
-    //passt auch weil dadurch nur der primitive typ int sortiert wird und der string array als nebenprodukt mitgeschoben wird
 
-    //Getter die das sortierte Array zurückgeben also Methode sortieren aufrufen
-    //Setter die Namen korrekt setzen
     private final int größe;
     private String[] namen;
     private int[] geburtsjahr;
