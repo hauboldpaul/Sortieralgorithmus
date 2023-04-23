@@ -7,15 +7,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*Bubblesort sort = new Bubblesort();
+        Bubblesort sort = new Bubblesort();
         sort.befüllen(10);
         sort.sortieren();
-        System.out.println(sort.toString());*/
+        System.out.println(sort.toString());
 
-        Namen n = new Namen(4);
+        /*Namen n = new Namen(4);
         setNamebesipiel(n);
         n.selectionsort();
-        System.out.println(n.toString());
+        System.out.println(n.toString());*/
 
         /*Selectionsort select = new Selectionsort();
         select.befüllen(10);

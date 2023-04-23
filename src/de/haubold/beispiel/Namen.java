@@ -20,7 +20,7 @@ public class Namen{
 
     public void setName(String namen, int geburtsjahr) {
         if (namen == null || geburtsjahr <= 0) {
-            throw new IllegalArgumentException("Kein Name eingegeben oder das geburtsjahr ist außerhalb des erlaubten Bereichs");
+            throw new IllegalArgumentException("Kein Name eingegeben oder das geburtsjahr ist außerhalb des erlaubten Bereichs"); //ändern
         }
         this.namen[zähler] = namen;
         this.geburtsjahr[zähler] = geburtsjahr;

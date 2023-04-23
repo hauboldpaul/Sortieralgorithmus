@@ -14,9 +14,9 @@ public class Bubblesort {
         }
     }
 
-    public void sortieren() {
-        for (int i = 1; i < zahlen.length; i++){
-            for (int j = 0; j < zahlen.length-1;j++){
+    public void sortieren() { //aufsteigende Sortierung
+        for (int i = 1; i < zahlen.length; i++){   //Bubble Phasen
+            for (int j = 0; j < zahlen.length-1;j++){  //durchlaufen des Arrays
                 if(zahlen[j] > zahlen[j+1]) {
                     int größer = zahlen[j];
                     int kleiner = zahlen[j+1];

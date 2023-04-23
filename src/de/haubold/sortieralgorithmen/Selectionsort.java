@@ -17,9 +17,9 @@ public class Selectionsort {
 
     }
     public void sortieren() {
-        for (int i = 0; i < zahlen.length;i++) {
+        for (int i = 0; i < zahlen.length;i++) { //Auswahl der zu vergleichenden Zahl
             int min = zahlen[i];
-            for (int j = i; j < zahlen.length; j++) {
+            for (int j = i; j < zahlen.length; j++) { //vergleichen der Zahl am Index und Tauschen dieser
                 if (zahlen[j] < min) {
                     int größer = min;
                     min = zahlen[j];
